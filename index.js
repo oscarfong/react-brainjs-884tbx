@@ -4,6 +4,7 @@ import Hello from './Hello';
 import './style.css';
 
 import outputNN10 from './nn10';
+import run1 from './childrens-book';
 
 class App extends Component {
   constructor() {
@@ -19,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        brain.js  {outputNN10}
+        brain.js  {outputNN10}  {run1}
         <Hello name={this.state.name} />
         <p>
           Start editing to see some magic happen :)

@@ -1,6 +1,8 @@
 import brain from 'brain.js';
 //const brain = require('../dist/index').default;
 
+// see: https://github.com/BrainJS/brain.js#for-training-with-rnn-lstm-and-gru
+
 const trainingData = [
   'Jane saw Doug.',
   'Doug saw Jane.',

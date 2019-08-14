@@ -27,4 +27,11 @@ console.log('run 2: Doug' + run2);
 console.log('run 3: Spot' + run3);
 console.log('run 4: special' + run4);
 
+// serialize / save or load in the state of a trained network with JSON:
+// 
+// const json = net.toJSON();
+// net.fromJSON(json);
+// 
+//console.log( lstm.toJSON());
+
 export default run1;
